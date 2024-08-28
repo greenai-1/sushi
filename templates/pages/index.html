@@ -1,0 +1,14 @@
+{% extends 'scaffolds/base.html' %}
+{% block title %} Django CMS {% endblock %}
+
+{% block content %}
+{% include 'components/page.header.html' with post=post showReadMore=True%}
+<div class="app-content">
+    {% for post in posts %}
+        {% include "components/article.card.html" with post=post showReadMore=True %}
+    {% endfor %}
+</div> 
+{% endblock %}
+
+{% block js_script %}{% endblock %}
+

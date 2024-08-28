@@ -1,0 +1,8 @@
+{
+    "proj_DIR": "C:/Users/badc0/Desktop/DjangoBLOG/User_photo/",
+    "y4_Names": "test.names",
+    "y4_Config": "yolov4-test.cfg",
+    "y4_Weights": "yolov4-test_last.weights",
+    "TestImg": "C:/Users/badc0/Desktop/DjangoBLOG/User_photo/initial_photo.jpg",
+    "ngrokURL" : "https://9346-106-105-234-158.ngrok-free.app"
+}

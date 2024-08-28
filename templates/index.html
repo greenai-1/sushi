@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Django CMS</title>
+  </head>
+
+
+  <body>
+    <h1> Welcome to MyBLOG 2</h1>
+    <hr>
+    {% for post in posts %}
+        <a href="post/{{post.slug}}"> #{{forloop.counter}}: {{ post.title }} </a>
+        <br>
+        <br>
+    {% endfor %}
+    <hr>
+    <h3> 現在時間: {{ now }} </h3>
+</body>
+</html>
