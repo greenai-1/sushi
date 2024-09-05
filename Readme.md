@@ -4,8 +4,7 @@
 https://drive.google.com/file/d/17xHbBYACGzKi-ao5D7xRELoYblNI7qcI/view?usp=sharing
 
 ## Database Account
-* admin
-* Cc12301230
+
 * pip install -r requirements.txt
 * pip install opencv-python
 * pip install pillow
